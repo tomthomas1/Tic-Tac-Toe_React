@@ -1,0 +1,28 @@
+table td {
+  border: 1px solid gray;
+  width: 150px;
+  height: 150px;
+  font-size:80px;
+}
+
+.container {
+  display: flex;
+  flex-direction: column;
+  width: 1300px;
+  align-items: center;
+  justify-content: center;
+}
+
+html {
+  background-color: aquamarine;
+}
+
+td {
+  background-color: aqua;
+}
+
+td:hover {
+  background-color: mediumseagreen;
+}
+
+
